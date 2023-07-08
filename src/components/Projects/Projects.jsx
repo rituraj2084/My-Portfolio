@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="The Portfolio Website is a personal website developed using React.js and several of its dependencies, including React Router, React Bootstrap, and React Icons. This project serves as a digital showcase of my skills, experience, and projects, allowing visitors to learn more about me and my work."
-              link="https://github.com/rituraj2084/"
+              link="https://rituraj-mnit.netlify.app/"
             />
           </Col>
 
