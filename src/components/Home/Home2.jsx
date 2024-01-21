@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-
-} from "react-icons/ai";
+import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,25 +15,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a passionate and dedicated software developer with expertise in the <b className="purple">MERN (MongoDB, Express.js, React.js, and Node.js)  stack, 
-              C++, Python, Data Analysis &amp; Data Structures and Algorithms (DSA).</b> 🤷‍♂️
+              I'm a passionate and dedicated software developer with expertise
+              in the{" "}
+              <b className="purple">
+                MERN (MongoDB, Express.js, React.js, and Node.js) stack, C++,
+                Python, Data Analysis &amp; Data Structures and Algorithms
+                (DSA).
+              </b>{" "}
+              🤷‍♂️
               <br />
               <br />
-              With a strong foundation in these technologies, I bring a unique blend of <b className="purple"> technical proficiency and problem-solving abilities</b> to every project I undertake.
+              With a strong foundation in these technologies, I bring a unique
+              blend of{" "}
+              <b className="purple">
+                {" "}
+                technical proficiency and problem-solving abilities
+              </b>{" "}
+              to every project I undertake.
               <br />
               <br />I specialize in
               <i>
-                <b className="purple"> building robust and scalable web applications. </b>
+                <b className="purple">
+                  {" "}
+                  building robust and scalable web applications.{" "}
+                </b>
               </i>
               <br />
-              <br />
-              I have a keen interest
+              <br />I have a keen interest
               <i>
-                <b className="purple"> in leveraging data to drive insights and create meaningful solutions.</b>
+                <b className="purple">
+                  {" "}
+                  in leveraging data to drive insights and create meaningful
+                  solutions.
+                </b>
               </i>
-              
             </p>
-            
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -47,8 +59,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12}>
-            <p style={{fontSize:"1.5em"}} className="purple">
-              Thank you for visiting my portfolio website, and I look forward to discuss how we can work together to bring your ideas to life!
+            <p style={{ fontSize: "1.5em" }} className="purple">
+              Thank you for visiting my portfolio website, and I look forward to
+              discuss how we can work together to bring your ideas to life!
             </p>
           </Col>
         </Row>
@@ -71,7 +84,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/_raj_ritu"
+                  href="https://twitter.com/rituraj2084"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +102,6 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-
             </ul>
           </Col>
         </Row>
