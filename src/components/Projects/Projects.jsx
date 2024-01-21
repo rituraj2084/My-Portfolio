@@ -4,10 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particles";
 import confession from "../../Assets/Projects/confession.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
-import chat from "../../Assets/Projects/chat.png"
-import blog from "../../Assets/Projects/blog.png"
-import sorting from "../../Assets/Projects/sorting.png"
-import drum from "../../Assets/Projects/drum.png"
+import chat from "../../Assets/Projects/chat.png";
+import blog from "../../Assets/Projects/blog.png";
+import sorting from "../../Assets/Projects/sorting.png";
+import drum from "../../Assets/Projects/drum.png";
+import calculator from "../../Assets/Projects/investment-calculator.jpg";
+import conference from "../../Assets/Projects/tech-conference.png";
 
 function Projects() {
   return (
@@ -21,6 +23,16 @@ function Projects() {
           Here are a few projects I've worked on .
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calculator}
+              isBlog={false}
+              title="Investment Calculator"
+              description="I designed and implemented an Investment Calculator using React JS and custom CSS to provide users with a powerful tool for financial planning. This intuitive web application allows users to calculate potential returns on their investments by inputting key parameters such as initial investment amount, interest rate, and investment duration."
+              link="https://investment-calculator-ritu.netlify.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={confession}
@@ -73,14 +85,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={drum}
+              imgPath={conference}
               isBlog={false}
-              title="Drum Kit"
-              description="The Drum Kit is an interactive web application developed using HTML, CSS, JavaScript, and Bootstrap. This project brings the experience of playing a virtual drum set to the web, allowing users to create rhythmic beats and explore their musical creativity."
-              link="https://rituraj2084.github.io/drum-kit/"
+              title="Tech Conference"
+              description="I crafted a dynamic and engaging Tech Conference Website using HTML, CSS, and JavaScript to showcase an immersive online experience for tech enthusiasts. This platform serves as a hub for conference details, featuring information on keynote speakers, agenda, and registration. The responsive design ensures seamless navigation across various devices, while JavaScript functionalities enhance user interaction. Through this project, I aimed to provide a visually appealing and informative space for tech enthusiasts to explore, engage, and participate in the upcoming conference."
+              link="https://rituraj2084.github.io/Tech-Conference/"
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={drum}
+              isBlog={false}
+              title="Drum Kit"
+              description="Dive into the rhythm with my Drum Kit Website, a dynamic and interactive musical experience crafted using HTML, CSS, Bootstrap, and JavaScript. This web application allows users to play a virtual drum kit, producing various beats and sounds with just a click or a tap. The responsive design ensures accessibility across devices, while Bootstrap components enhance the visual appeal and user experience. Whether you're a music enthusiast or just looking for a fun way to explore web development, this Drum Kit Website combines creativity and technology for an engaging musical journey."
+              link="https://rituraj2084.github.io/drum-kit/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
