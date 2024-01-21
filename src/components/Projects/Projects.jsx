@@ -28,7 +28,7 @@ function Projects() {
               imgPath={calculator}
               isBlog={false}
               title="Investment Calculator"
-              description="I designed and implemented an Investment Calculator using React JS and custom CSS to provide users with a powerful tool for financial planning. This intuitive web application allows users to calculate potential returns on their investments by inputting key parameters such as initial investment amount, interest rate, and investment duration."
+              description="I designed and implemented an Investment Calculator using React JS and custom CSS to provide users with a powerful tool for financial planning. This intuitive web application allows users to calculate potential returns on their investments by inputting key parameters such as initial investment amount, interest rate, and investment duration. The real-time calculations and interactive user interface enhance the overall user experience, making it easy for individuals to make informed decisions about their financial goals. Through this project, I aimed to combine functionality with a clean and visually appealing design, showcasing my proficiency in front-end development using React JS and CSS."
               link="https://investment-calculator-ritu.netlify.app/"
             />
           </Col>
@@ -38,7 +38,7 @@ function Projects() {
               imgPath={confession}
               isBlog={false}
               title="MNIT Confession Website"
-              description="A dynamic web application developed using EJS, Node.js, Express, MongoDB, Passport.js, and Google OAuth. This project provides a platform for students of the Malaviya National Institute of Technology (MNIT) to anonymously share their thoughts, opinions, and confessions."
+              description="Step into the anonymous realm of expressions with the MNIT Confession Website—a unique platform developed using EJS, Node.js, Express, MongoDB, Passport.js, and Google OAuth. This web application provides users with a confidential space to share their thoughts, confessions, and anecdotes. Leveraging the power of Google OAuth for secure authentication and Passport.js for seamless authorization, users can confess and interact without revealing their identities. The integration with MongoDB ensures efficient storage and retrieval of confessions. Explore the intersection of technology and human expression with this dynamic and secure confession platform."
               link="https://mnit-confession.cyclic.app/"
             />
           </Col>
@@ -48,7 +48,7 @@ function Projects() {
               imgPath={portfolio}
               isBlog={false}
               title="Portfolio"
-              description="The Portfolio Website is a personal website developed using React.js and several of its dependencies, including React Router, React Bootstrap, and React Icons. This project serves as a digital showcase of my skills, experience, and projects, allowing visitors to learn more about me and my work."
+              description="Explore my professional journey and accomplishments through my Portfolio Website, meticulously crafted with React.js and Bootstrap. This dynamic and responsive website serves as a showcase of my skills, projects, and experiences. The use of React.js ensures a seamless and interactive user experience, while Bootstrap contributes to a modern and visually appealing design. Dive into the various sections to learn more about my skills, view my projects, and connect with me. Discover the intersection of creativity and technology in this personalized space that reflects my passion for web development."
               link="https://rituraj-mnit.netlify.app/"
             />
           </Col>
@@ -58,7 +58,7 @@ function Projects() {
               imgPath={chat}
               isBlog={false}
               title="Real Time Chat App"
-              description="The Real-Time Chat App is a dynamic web application developed using HTML, CSS, Javascript, Node.js, Express.js, and Socket.io. This project provides users with a real-time communication platform, enabling instant messaging and collaboration among multiple users."
+              description="Experience the excitement of instant communication with my Real-Time Chat Application. This dynamic and responsive web application is developed using HTML, CSS, JavaScript, Node.js, Express.js, and Socket.io. Users can seamlessly connect in real-time, exchanging messages and participating in live conversations. The application leverages Socket.io for real-time bidirectional event-based communication, creating a dynamic and engaging platform for online interaction. Dive into the world of real-time communication technology and explore the possibilities with this innovative chat application."
               link="https://github.com/rituraj2084/Chat-App"
             />
           </Col>
@@ -68,7 +68,7 @@ function Projects() {
               imgPath={blog}
               isBlog={false}
               title="Blog Website"
-              description="The Blog Website is a dynamic web application developed using EJS, CSS, Node.js, Express.js, and MongoDB. This project provides a platform for users to create, read, update, and delete blog posts, allowing them to share their thoughts, insights, and experiences with a wider audience."
+              description="Embark on a journey of ideas and insights with my Blog Website, a dynamic platform crafted with EJS, CSS, Node.js, Express.js, and MongoDB. This full-stack web application empowers users to create, read, update, and delete blog posts seamlessly. The use of EJS templating engine ensures a dynamic and efficient front-end, while Node.js and Express.js handle the back-end functionalities. The integration with MongoDB enables the storage and retrieval of blog data. Immerse yourself in a user-friendly blogging experience that combines creativity, functionality, and the power of a robust tech stack."
               link="https://blog-web-ritu.cyclic.app/"
             />
           </Col>
@@ -78,7 +78,7 @@ function Projects() {
               imgPath={sorting}
               isBlog={false}
               title="Sorting Visualiser"
-              description="The Sorting Visualizer is an interactive web application developed using HTML, CSS, and JavaScript. This project aims to visually demonstrate various sorting algorithms in action, allowing users to gain a better understanding of how different sorting methods work."
+              description="Embark on a visual journey of algorithms with my Sorting Visualizer, a web application crafted using HTML, CSS, and JavaScript. This interactive website allows users to witness the magic of various sorting algorithms in action, providing a dynamic and educational experience. Users can choose from popular sorting algorithms such as Bubble Sort, Merge Sort, and Quick Sort, and observe the real-time visualization of how these algorithms rearrange elements to achieve an ordered sequence. Dive into the world of algorithms and data visualization with this engaging Sorting Visualizer."
               link="https://rituraj2084.github.io/Sorting-Visualizer/"
             />
           </Col>
