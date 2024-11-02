@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import myImg from '../../Assets/avatar.svg';
+import Tilt from 'react-parallax-tilt';
+import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Home2() {
   return (
@@ -11,44 +11,41 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I'm a passionate and dedicated software developer with expertise
-              in the{" "}
+              I’m Ritu Raj, a passionate Frontend Developer dedicated to
+              crafting seamless and engaging digital experiences. With expertise
+              in
               <b className="purple">
-                MERN (MongoDB, Express.js, React.js, and Node.js) stack, C++,
-                Python, Data Analysis &amp; Data Structures and Algorithms
-                (DSA).
-              </b>{" "}
-              🤷‍♂️
+                {' '}
+                JavaScript (ES6+), React, Redux, TypeScript, SASS, SCSS
+              </b>
+              , and a keen eye for user-centric design, I specialize in building
+              intuitive web applications that balance aesthetic appeal and
+              robust functionality.
               <br />
               <br />
-              With a strong foundation in these technologies, I bring a unique
-              blend of{" "}
-              <b className="purple">
-                {" "}
-                technical proficiency and problem-solving abilities
-              </b>{" "}
-              to every project I undertake.
+              My journey as a developer began with a fascination for solving
+              complex problems and transforming ideas into code. Since then,
+              I’ve had the pleasure of working on dynamic projects that range
+              from data-driven visualizations to immersive web apps.
               <br />
-              <br />I specialize in
-              <i>
-                <b className="purple">
-                  {" "}
-                  building robust and scalable web applications.{" "}
-                </b>
-              </i>
               <br />
-              <br />I have a keen interest
-              <i>
-                <b className="purple">
-                  {" "}
-                  in leveraging data to drive insights and create meaningful
-                  solutions.
-                </b>
-              </i>
+              Currently, I’m working at{' '}
+              <b className="purple"> Deloitte (Offices of US)</b>, where I
+              collaborate on high-impact projects, focusing on performance,
+              scalability, and accessibility. Every project is a new challenge,
+              and I approach each with an aim to push my creative boundaries and
+              adopt industry-best practices. My goal is simple yet ambitious: to
+              leverage technology in building meaningful solutions that leave a
+              lasting impact.
+              <br />
+              <br />
+              Outside of work, I’m constantly refining my skills and exploring
+              new technologies. I look forward to connecting and discussing how
+              we can bring fresh ideas to life together!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -59,7 +56,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12}>
-            <p style={{ fontSize: "1.5em" }} className="purple">
+            <p style={{ fontSize: '1.5em' }} className="purple">
               Thank you for visiting my portfolio website, and I look forward to
               discuss how we can work together to bring your ideas to life!
             </p>

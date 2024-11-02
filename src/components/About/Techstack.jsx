@@ -1,6 +1,6 @@
-import React from "react";
-import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import { CgCPlusPlus } from 'react-icons/cg';
 import {
   DiJavascript1,
   DiReact,
@@ -8,62 +8,62 @@ import {
   DiMongodb,
   DiHtml5,
   DiGit,
-  DiPython,
-} from "react-icons/di";
+  DiBitbucket,
+} from 'react-icons/di';
 import {
-
   SiMysql,
   SiCss3,
   SiBootstrap,
   SiPython,
-  SiExpress
-
-
-} from "react-icons/si";
+  SiExpress,
+  SiTailwindcss,
+} from 'react-icons/si';
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiBitbucket />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
-     <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5/>
+        <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        < SiCss3/>
+        <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap/>
+        <SiBootstrap />
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPython />
       </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
       </Col>
-
     </Row>
   );
 }

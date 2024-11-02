@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { ImPointRight } from 'react-icons/im';
 
 function AboutCard() {
   return (
@@ -8,31 +7,43 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: 'justify' }}>
-            Hi Everyone, I am <span className="purple">Ritu Raj </span>
-            from <span className="purple"> Madhubani, Bihar, India.</span>
-            <br />I have completed B.Tech from MNIT Jaipur in 2023. I'm a
-            passionate and dedicated software developer with expertise in the{' '}
-            <b className="purple">
-              MERN (MongoDB, Express.js, React.js, and Node.js) stack, C++,
-              Python, Data Analysis &amp; Data Structures and Algorithms (DSA).
-            </b>
+            I’m <span className="purple"> Ritu Raj </span>, a Frontend Developer
+            with a strong foundation in modern web technologies like{' '}
+            <span className="purple">
+              {' '}
+              JavaScript (ES6+), React, Redux, TypeScript, Tailwind CSS, SCSS
+              and SASS.
+            </span>{' '}
+            I graduated from <span className="purple">MNIT Jaipur </span> with a
+            degree in engineering and currently work as a Frontend Developer at
+            <span className="purple"> Deloitte USI, </span> where I focus on
+            delivering high-quality, scalable solutions for clients.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            With over a year of hands-on experience, I’ve contributed to diverse
+            projects, ranging from interactive data visualizations to
+            comprehensive web applications. My recent work includes building{' '}
+            <span className="purple">
+              a Netflix-inspired site using Vite, React, and Firebase
+              Authentication, as well as creating a Swiggy-style app that
+              leverages live API integrations to provide real-time
+              functionality.
+            </span>{' '}
+            Additionally, my ongoing projects in the finance and sports
+            industries have sharpened my skills in{' '}
+            <span className="purple">
+              accessibility, unit testing, and agile development.
+            </span>{' '}
+            <br />
+            <br />
+            I’m driven by a goal to secure an SDE role in a leading
+            product-based company. Alongside this, I continually strive to
+            expand my technical expertise, adopt industry best practices, and
+            approach each task with a problem-solving mindset. When I’m not
+            coding, I explore the latest frontend developments, refine my
+            understanding of algorithms, and connect with like-minded
+            professionals to stay inspired.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Stock Trading
-            </li>
-
-            <li className="about-activity">
-              <ImPointRight /> Teaching
-            </li>
-
-            <li className="about-activity">
-              <ImPointRight /> Playing Badminton
-            </li>
-          </ul>
 
           <br />
           <p style={{ color: 'rgb(155 126 172)' }}>
