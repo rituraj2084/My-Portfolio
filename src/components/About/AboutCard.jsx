@@ -11,8 +11,8 @@ function AboutCard() {
             with a strong foundation in modern web technologies like{' '}
             <span className="purple">
               {' '}
-              JavaScript (ES6+), React, Redux, TypeScript, Tailwind CSS, SCSS
-              and SASS.
+              JavaScript (ES6+), React, Redux, Next.js, TypeScript, Tailwind
+              CSS, SCSS and SASS.
             </span>{' '}
             I graduated from <span className="purple">MNIT Jaipur </span> with a
             degree in engineering and currently work as a Frontend Developer at
@@ -20,8 +20,8 @@ function AboutCard() {
             delivering high-quality, scalable solutions for clients.
             <br />
             <br />
-            With over a year of hands-on experience, I’ve contributed to diverse
-            projects, ranging from interactive data visualizations to
+            With over 1.5 year of hands-on experience, I’ve contributed to
+            diverse projects, ranging from interactive data visualizations to
             comprehensive web applications. My recent work includes building{' '}
             <span className="purple">
               a Netflix-inspired site using Vite, React, and Firebase
@@ -29,7 +29,7 @@ function AboutCard() {
               leverages live API integrations to provide real-time
               functionality.
             </span>{' '}
-            Additionally, my ongoing projects in the finance and sports
+            Additionally, my ongoing projects in the Finance and Pharma
             industries have sharpened my skills in{' '}
             <span className="purple">
               accessibility, unit testing, and agile development.

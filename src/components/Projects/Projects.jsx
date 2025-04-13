@@ -1,15 +1,18 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particles";
-import confession from "../../Assets/Projects/confession.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import chat from "../../Assets/Projects/chat.png";
-import blog from "../../Assets/Projects/blog.png";
-import sorting from "../../Assets/Projects/sorting.png";
-import drum from "../../Assets/Projects/drum.png";
-import calculator from "../../Assets/Projects/investment-calculator.jpg";
-import conference from "../../Assets/Projects/tech-conference.png";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import ProjectCard from './ProjectCards';
+import Particle from '../Particles';
+import confession from '../../Assets/Projects/confession.png';
+import portfolio from '../../Assets/Projects/portfolio.png';
+import chat from '../../Assets/Projects/chat.png';
+import blog from '../../Assets/Projects/blog.png';
+import sorting from '../../Assets/Projects/sorting.png';
+import drum from '../../Assets/Projects/drum.png';
+import calculator from '../../Assets/Projects/investment-calculator.jpg';
+import conference from '../../Assets/Projects/tech-conference.png';
+import propertyPulse from '../../Assets/Projects/PropertyPulse.png';
+import netflix from '../../Assets/Projects/netflix.png';
+import developerDashboard from '../../Assets/Projects/developer-dashboard.png';
 
 function Projects() {
   return (
@@ -19,10 +22,51 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p style={{ color: 'white' }}>
           Here are a few projects I've worked on .
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={propertyPulse}
+              technologies={[
+                'Next.js',
+                'JavaScript',
+                'MongoDB',
+                'Tailwind CSS',
+              ]}
+              isBlog={false}
+              title="PropertyPulse"
+              description="A real-estate web app where users can search, bookmark, and explore rental properties on an interactive map. Includes features like social sharing, user messaging, and personalized notifications."
+              link="https://property-pulse-lime.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              technologies={[
+                'React',
+                'Redux',
+                'JavaScript',
+                'Firebase',
+                'Tailwind CSS',
+              ]}
+              isBlog={false}
+              title="MovieflixGPT"
+              description="A movie streaming platform that allows users to sign in, browse movies, and get smart recommendations based on mood and prompts. Includes search, category-wise listing, and secure authentication."
+              link="https://movieflix-gpt-ritu.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={developerDashboard}
+              technologies={['React', 'Chart.js', 'Typescript', 'Tailwind CSS']}
+              isBlog={false}
+              title="DevDynamics "
+              description="Visual dashboard showing weekly developer activities like code commits, PRs, meetings, and documentation. Includes summary stats, interactive charts, filters, and a clean activity table."
+              link="https://developer-dashboard-ritu.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={calculator}

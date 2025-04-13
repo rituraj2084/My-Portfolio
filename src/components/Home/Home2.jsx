@@ -20,7 +20,7 @@ function Home2() {
               in
               <b className="purple">
                 {' '}
-                JavaScript (ES6+), React, Redux, TypeScript, SASS, SCSS
+                JavaScript (ES6+), React, Redux, Next.js, TypeScript, SASS, SCSS
               </b>
               , and a keen eye for user-centric design, I specialize in building
               intuitive web applications that balance aesthetic appeal and
