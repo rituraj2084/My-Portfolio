@@ -13,6 +13,7 @@ import conference from '../../Assets/Projects/tech-conference.png';
 import propertyPulse from '../../Assets/Projects/PropertyPulse.png';
 import netflix from '../../Assets/Projects/netflix.png';
 import developerDashboard from '../../Assets/Projects/developer-dashboard.png';
+import mealMate from '../../Assets/Projects/MealMate.png';
 
 function Projects() {
   return (
@@ -55,6 +56,21 @@ function Projects() {
               title="MovieflixGPT"
               description="A movie streaming platform that allows users to sign in, browse movies, and get smart recommendations based on mood and prompts. Includes search, category-wise listing, and secure authentication."
               link="https://movieflix-gpt-ritu.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mealMate}
+              technologies={[
+                'React',
+                'Context API',
+                'JavaScript',
+                'Tailwind CSS',
+              ]}
+              isBlog={false}
+              title="MealMate"
+              description="A food ordering app where users can explore restaurant listings, view menus, and manage cart items in real-time. Designed for fast navigation and seamless ordering experience."
+              link="https://github.com/rituraj2084/Meal-Mate"
             />
           </Col>
           <Col md={4} className="project-card">
