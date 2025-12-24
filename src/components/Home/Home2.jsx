@@ -14,38 +14,43 @@ function Home2() {
             <h1 style={{ fontSize: '2.6em' }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+            <p className="purple" style={{ fontSize: '1.2em' }}>
+              Frontend Engineer | Building scalable, high-performance web
+              experiences
+            </p>
             <p className="home-about-body">
-              I’m Ritu Raj, a passionate Frontend Developer dedicated to
-              crafting seamless and engaging digital experiences. With expertise
-              in
+              I am Ritu Raj, a Frontend Engineer passionate about building fast,
+              scalable, and user-centric web applications. I specialize in
+              creating clean and intuitive interfaces using
               <b className="purple">
                 {' '}
-                JavaScript (ES6+), React, Redux, Next.js, TypeScript, SASS, SCSS
+                JavaScript (ES6+), React, Redux, Next.js, TypeScript, SASS, and
+                SCSS
               </b>
-              , and a keen eye for user-centric design, I specialize in building
-              intuitive web applications that balance aesthetic appeal and
-              robust functionality.
+              , with a strong focus on performance, accessibility, and
+              maintainable code.
+              <br />
+              <br />I currently work at <b className="purple">
+                Bain & Company
+              </b>{' '}
+              as a Senior Frontend Engineer, where I contribute to high-impact,
+              production-grade applications. My work involves collaborating
+              closely with designers, backend engineers, and product
+              stakeholders to deliver scalable, performance-optimized solutions
+              while following industry best practices.
               <br />
               <br />
-              My journey as a developer began with a fascination for solving
-              complex problems and transforming ideas into code. Since then,
-              I’ve had the pleasure of working on dynamic projects that range
-              from data-driven visualizations to immersive web apps.
+              Previously, I worked at{' '}
+              <b className="purple">Deloitte (Offices of US)</b>, where I gained
+              hands-on experience building enterprise-level applications,
+              strengthening my foundations in frontend architecture, performance
+              optimization, and accessibility-driven development.
               <br />
               <br />
-              Currently, I’m working at{' '}
-              <b className="purple"> Deloitte (Offices of US)</b>, where I
-              collaborate on high-impact projects, focusing on performance,
-              scalability, and accessibility. Every project is a new challenge,
-              and I approach each with an aim to push my creative boundaries and
-              adopt industry-best practices. My goal is simple yet ambitious: to
-              leverage technology in building meaningful solutions that leave a
-              lasting impact.
-              <br />
-              <br />
-              Outside of work, I’m constantly refining my skills and exploring
-              new technologies. I look forward to connecting and discussing how
-              we can bring fresh ideas to life together!
+              Beyond my professional work, I enjoy exploring new technologies,
+              refining my skills, and building side projects that challenge my
+              thinking. I am always open to meaningful conversations and
+              opportunities to create impactful digital experiences together.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -58,7 +63,7 @@ function Home2() {
           <Col md={12}>
             <p style={{ fontSize: '1.5em' }} className="purple">
               Thank you for visiting my portfolio website, and I look forward to
-              discuss how we can work together to bring your ideas to life!
+              discussing how we can work together to bring your ideas to life!
             </p>
           </Col>
         </Row>
@@ -81,7 +86,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/rituraj2084"
+                  href="https://www.x.com/CoderRajj"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

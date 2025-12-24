@@ -7,47 +7,55 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: 'justify' }}>
-            I’m <span className="purple"> Ritu Raj </span>, a Frontend Developer
-            with a strong foundation in modern web technologies like{' '}
+            I am <span className="purple">Ritu Raj</span>, a Frontend Engineer
+            with a strong foundation in modern web technologies such as{' '}
             <span className="purple">
-              {' '}
               JavaScript (ES6+), React, Redux, Next.js, TypeScript, Tailwind
-              CSS, SCSS and SASS.
-            </span>{' '}
-            I graduated from <span className="purple">MNIT Jaipur </span> with a
-            degree in engineering and currently work as a Frontend Developer at
-            <span className="purple"> Deloitte USI, </span> where I focus on
-            delivering high-quality, scalable solutions for clients.
+              CSS, SCSS, and SASS
+            </span>
+            . I graduated from <span className="purple">MNIT Jaipur</span> with
+            a degree in engineering and am currently working as a Senior
+            Frontend Engineer (Associate) at{' '}
+            <span className="purple">Bain & Company</span>, where I focus on
+            building scalable, high-performance, and user-centric web
+            applications.
             <br />
             <br />
-            With over 1.5 year of hands-on experience, I’ve contributed to
-            diverse projects, ranging from interactive data visualizations to
-            comprehensive web applications. My recent work includes building{' '}
+            Previously, I worked at{' '}
+            <span className="purple">Deloitte (USI)</span>, where I gained
+            experience developing enterprise-grade solutions across domains such
+            as Finance and Pharma. These projects strengthened my understanding
+            of{' '}
             <span className="purple">
-              a Netflix-inspired site using Vite, React, and Firebase
-              Authentication, as well as creating a Swiggy-style app that
-              leverages live API integrations to provide real-time
-              functionality.
-            </span>{' '}
-            Additionally, my ongoing projects in the Finance and Pharma
-            industries have sharpened my skills in{' '}
+              accessibility, unit testing, performance optimization, and agile
+              development practices
+            </span>
+            .
+            <br />
+            <br />
+            With over{' '}
+            <span className="purple">2.5 years of professional experience</span>
+            , I have contributed to a wide range of projects—from interactive
+            dashboards and data-driven visualizations to full-scale web
+            platforms. My work includes building a{' '}
             <span className="purple">
-              accessibility, unit testing, and agile development.
+              Netflix-inspired streaming application using React and Firebase
+              Authentication
             </span>{' '}
+            and a Swiggy-style food ordering app leveraging live API
+            integrations for real-time functionality.
             <br />
-            <br />
-            I’m driven by a goal to secure an SDE role in a leading
-            product-based company. Alongside this, I continually strive to
-            expand my technical expertise, adopt industry best practices, and
-            approach each task with a problem-solving mindset. When I’m not
-            coding, I explore the latest frontend developments, refine my
-            understanding of algorithms, and connect with like-minded
-            professionals to stay inspired.
+            <br />I am driven by continuous learning and a passion for building
+            products that create real-world impact. Outside of work, I enjoy
+            exploring emerging frontend technologies, improving my
+            problem-solving skills, and connecting with like-minded engineers to
+            stay inspired.
           </p>
 
           <br />
+
           <p style={{ color: 'rgb(155 126 172)' }}>
-            "Hard work beats talent, when talent doesn't work hard!"{' '}
+            “Hard work beats talent, when talent doesn’t work hard.”
           </p>
           <footer className="blockquote-footer">Tim Notke</footer>
         </blockquote>

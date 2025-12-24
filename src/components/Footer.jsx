@@ -1,7 +1,6 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { Container, Row, Col } from 'react-bootstrap';
+import { AiFillGithub, AiOutlineTwitter } from 'react-icons/ai';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
   let date = new Date();
@@ -17,7 +16,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/rituraj2084"
-                style={{ color: "white" }}
+                style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -26,8 +25,8 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/rituraj2084"
-                style={{ color: "white" }}
+                href="https://www.x.com/CoderRajj"
+                style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +36,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/rituraj2084/"
-                style={{ color: "white" }}
+                style={{ color: 'white' }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
